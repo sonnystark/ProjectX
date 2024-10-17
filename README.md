@@ -2,10 +2,32 @@
 
 As you will see, I ran into some problems while working on this assignment. Problems I simply wasn't able to solve. I went to great lengths attempting to problem solve this as I spent hours reading on forums and support channels. But, nothing seem to have helped.
 
-So... as I had no other option, the only way to proceed with the assignment was to first create the repo on GitHub, clone it and then push content to it. I hope that is ok.
+~~So... as I had no other option, the only way to proceed with the assignment was to first create the repo on GitHub, clone it and then push content to it. I hope that is ok.~~
+Well, that didn't work either. I then fired up my Macbook Pro to see if I could proceed with the assignment away from my work station. But as I was cloning the repo to my MacBook, this happened:
 
+```
+Cloning into 'ProjectX'...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:uNiVztksCsDhcc0u9e8BujQXVUpKZIDTMczCvj3tD2s.
+Please contact your system administrator.
+Add correct host key in /Users/sonnystark/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /Users/sonnystark/.ssh/known_hosts:1
+Host key for github.com has changed and you have requested strict checking.
+Host key verification failed.
+fatal: Could not read from remote repository.
 
-## Error message
+Please make sure you have the correct access rights
+and the repository exists.
+```
+I honestly don't kn ow what to do here or how to fix this issue. So, I will post a link to this repo and simply hope that you will understand my dilemma. 
+
+## Original error message
 
 This is the message I kept getting every time I tried to create a remote repo and I just can't understand what I am doing wrong.
 ```
@@ -16,6 +38,7 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 ```
+
 
 ## Terminal history
 
